@@ -1,4 +1,6 @@
+package Loops;
 // 1) check whether a given number is prime or not 
+
 //2) print prime nos. between two numbers 
 //3) print next prime number
 
