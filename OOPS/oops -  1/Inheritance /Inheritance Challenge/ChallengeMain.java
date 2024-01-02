@@ -35,4 +35,18 @@ public class ChallengeMain {
         System.out.println("Mary's Paycheck = $" + mary.collectPay());
         System.out.println("Mary's Holiday Pay = $" + mary.getDoublePay());
     }
+
+    // output :
+    // Employee{employeeId=1, hireDate='01/01/2020'} Worker{name='Tim',
+    // birthDate='11/11/1985', endDate='null'}
+    // Age = 40
+    // Pay = 0.0
+    // Employee{employeeId=2, hireDate='03/03/2020'} Worker{name='Joe',
+    // birthDate='11/11/1990', endDate='null'}
+    // Joe's Paycheck = $1346.0
+    // Joe's Pension check = $1211.0
+    // Employee{employeeId=3, hireDate='03/03/2021'} Worker{name='Mary',
+    // birthDate='05/05/1970', endDate='null'}
+    // Mary's Paycheck = $600.0
+    // Mary's Holiday Pay = $1200.0
 }

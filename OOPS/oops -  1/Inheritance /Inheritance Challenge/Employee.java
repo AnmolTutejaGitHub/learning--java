@@ -7,7 +7,7 @@ public class Employee extends Worker {
 
     public Employee(String name, String birthDate, String hireDate) {
         super(name, birthDate);
-        this.employeeId = Employee.employeeNo++;
+        this.employeeId = Employee.employeeNo++; // static field ,,, post increment
         this.hireDate = hireDate;
     }
 

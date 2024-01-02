@@ -21,7 +21,7 @@ public class Worker {
     }
 
     public double collectPay() {
-        return 0.0;
+        return 0.0; // will be Overriden by specufuc worker type
     }
 
     public void terminate(String endDate) {
