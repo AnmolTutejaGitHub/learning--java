@@ -34,24 +34,29 @@ public class StringManipulationMethods {
         newDate = newDate.concat("1982");
         System.out.println("newDate = " + newDate);
 
+        // concat method does what the plus operator does but less efficiently
+
         newDate = "25" + "/" + "11" + "/" + "1982";
         System.out.println("newDate = " + newDate);
 
+        // method chaining
         newDate = "25".concat("/").concat("11").concat("/").concat("1982");
         System.out.println("newDate = " + newDate);
 
-        System.out.println(newDate.replace('/', '-'));
+        System.out.println(newDate.replace('/', '-')); // replaces every occurence
         System.out.println(newDate.replace("2", "00"));
 
-        System.out.println(newDate.replaceFirst("/", "-"));
-        System.out.println(newDate.replaceAll("/", "---"));
+        System.out.println(newDate.replaceFirst("/", "-")); // replaces only first occurence
+        System.out.println(newDate.replaceAll("/", "---")); // replace all occurences
+
+        //
 
         System.out.println("ABC\n".repeat(3));
         // ABC
         // ABC
         // ABC
 
-        System.out.println("-".repeat(20));
+        System.out.println("-".repeat(20)); // --------------------
 
         System.out.println("ABC\n".repeat(3).indent(8));
         System.out.println("-".repeat(20));
