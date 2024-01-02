@@ -6,7 +6,12 @@
 // toLowerCase , toUpperCase : Returns a new String, either in a lower case or in upper case
 
 //The second set of string manipulation methods, transform the String value, and return a String with a different meaning, than the original String.
-//
+// concat : Similar to the plus operator for strings, it concatenates text to the String and returns a new String as the result.
+// join : Allows multiple strings to be concatenated together in a single method, specifying a delimiter.
+// repeat : Returns the String repeated by the number of times specified in the argument.
+// replace , replaceAll , replaceFirst : These methods replace characters or strings in the string, returning a new String with replacements made.
+// substring , subSequence : These return a part of the String, its range defined by the start and end index specified.
+
 public class StringManipulationMethods {
 
     public static void main(String[] args) {
