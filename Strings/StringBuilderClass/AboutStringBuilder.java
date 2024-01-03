@@ -2,6 +2,17 @@ package StringBuilderClass;
 
 //import java.lang.StringBuilder;
 
+//A StringBuilder class has many similar methods to Strings.
+// But it also has methods to remove and insert characters or Strings, and truncate it's size.
+
+//delete , deleteCharAt : You can delete a substring using indices to specify a range, or delete a single character at an index.
+
+// insert : You can insert text at a specified position.
+
+// reverse : You can reverse the order of the characters in the sequence.
+
+// setLength : setLength can be used to truncate the sequence, or include null sequences to 'fill out' the sequence to that length.
+
 public class AboutStringBuilder {
     public static void main(String[] args) {
 
@@ -21,9 +32,18 @@ public class AboutStringBuilder {
         // capacity = 27
 
         StringBuilder emptyStart = new StringBuilder();
+        // created an empty string with default capacity of 16 meaning it can contain
+        // upto 16 characters before it needs to request new memory
+
+        // Every time , a StringBuilder needs to increase caacity , the data stored in
+        // the original storage needs to get copied over to the larger storage area.
+        // the new allocation size (capacity) is determined by JVM
+
         emptyStart.append("a".repeat(57));
 
         StringBuilder emptyStart32 = new StringBuilder(32);
+        // created an empty string with capacity 32
+
         emptyStart32.append("a".repeat(17));
 
         printInformation(emptyStart);
