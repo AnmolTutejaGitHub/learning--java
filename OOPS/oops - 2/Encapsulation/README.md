@@ -15,8 +15,7 @@ An application programming interface, or API, is the public contract, that tells
 The problems when classes aren't properly encapsulated :
 Allowing direct access to data on an object, can bypass checks and operations.
 It encourages an interdependency, or coupling, between the calling code and the class.
-For the previous example, we showed that changing a field name, broke the calling code.
-And we also showed, that the calling code had to take on the responsibility, for properly initializing a new Player.
+
 
 Benefits of Encapsulation:
 That's really one of the huge benefits of encapsulation, is that you're not actually affecting any other code.
