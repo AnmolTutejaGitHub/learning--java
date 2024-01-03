@@ -63,6 +63,9 @@ public class AboutStringBuilder {
         System.out.println(builderPlus);
         // Hello World and goodbye
 
+        // StringBuilder replace method is different from string replace method
+
+        // .replace(start,end,string literal)
         builderPlus.replace(16, 17, "G");
         System.out.println(builderPlus);
         // Hello World and Goodbye
