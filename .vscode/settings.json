@@ -1,12 +1,20 @@
 {
     "java.project.sourcePaths": [
+        "java Tim Udemy course exercise/CodingExercise36",
         "Strings/StringFormatting",
+        "Strings",
+        "OOPS/oops - 2",
         "OOPS/oops -  1/Inheritance /this vs super",
         "OOPS/oops -  1/Inheritance /java.lang.Object",
         "OOPS/oops -  1/Inheritance /Parent class method inheritance",
         "OOPS/oops -  1/Inheritance /Inheritance Challenge",
-        "Strings",
-        "java Tim Udemy course exercise/CodingExercise36",
-        "OOPS/oops - 2"
+        "OOPS",
+        "Loops",
+        "Exception handling",
+        "Earlier/pattern printing",
+        "OOPS/oops -  1/ConstructorChallenge",
+        "OOPS/oops -  1/reference of a class",
+        "OOPS/oops -  1/reference of a class/ShallowAndDeepCopy",
+        "OOPS/oops -  1/CopyConstructor",
     ]
 }
