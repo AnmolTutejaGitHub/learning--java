@@ -17,9 +17,9 @@ public class CopyConstructorMain {
         s1.name = "anmol";
         System.out.println(s2.name); // Anmol wtf deep copy ??????
 
-        s1.marks[0] = 80;
-        s1.marks[1] = 90;
-        s1.marks[2] = 100;
+        // s1.marks[0] = 80;
+        // s1.marks[1] = 90;
+        // s1.marks[2] = 100;
 
         // System.out.println(s1.marks[0]);
 
