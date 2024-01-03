@@ -50,6 +50,15 @@ public class AboutStringBuilder {
         builderPlus.reverse().setLength(7);
         System.out.println(builderPlus);
         // eybdooG
+
+        StringBuilder mutable = new StringBuilder("mutable");
+
+        // mutable.charAt(0)="n"; //error
+        // Use setCharAt to replace the character at index 0
+        mutable.setCharAt(0, 'n');
+
+        System.out.println(mutable.toString()); // Output: nutable
+
     }
 
     public static void printInformation(String string) {
