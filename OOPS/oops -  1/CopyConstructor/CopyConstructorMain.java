@@ -1,40 +1,65 @@
+
 public class CopyConstructorMain {
     public static void main(String[] args) {
-        Student s1 = new Student();
+        Students s1 = new Students();
         s1.name = "Anmol";
         s1.roll = 7;
         s1.password = "abc";
 
-        Student s2 = new Student(s1);
-        System.out.println(s2.name);
-        System.out.println(s2.roll);
+        Students s2 = new Students(s1);
+        System.out.println(s2.name); // Anmol
+        System.out.println(s2.roll); // 7
+
+        s1.roll = 10;
+        System.out.println(s2.roll); // 7
+        System.out.println(s1.roll); // 10
+
+        s1.name = "anmol";
+        System.out.println(s2.name); // Anmol wtf deep copy ??????
+
+        s1.marks[0] = 80;
+        s1.marks[1] = 90;
+        s1.marks[2] = 100;
+
+        // System.out.println(s1.marks[0]);
+
     }
 }
 
-class Student {
+class Students {
     String name;
     int roll;
     String password;
     int marks[];
 
-    Student() {
+    Students() {
     }
 
-    Student(String name) {
+    Students(String name) {
         marks = new int[3];
         this.name = name;
     }
 
-    Student(int roll) {
+    Students(int roll) {
+        marks = new int[3];
         this.roll = roll;
     }
 
-    // shallow copy constructor
-    Student(Student s1) {
+    // copy constructor
+    // shallow copy of marks array
+    // deep copy of name and roll
+    Students(Students s1) {
         marks = new int[3];
         this.name = s1.name;
         this.roll = s1.roll;
         this.marks = s1.marks;
     }
+
+    // Students(Students s1) {
+    // marks = new int[3];
+    // this.name = s1.name;
+    // this.roll = s1.roll;
+    // this.marks = s1.marks;
+    // }
 
 }
