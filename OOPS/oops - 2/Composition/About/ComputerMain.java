@@ -12,14 +12,21 @@ public class ComputerMain {
         PersonalComputer thePC = new PersonalComputer("2208", "Dell",
                 theCase, theMonitor, theMotherboard);
 
-        // thePC.getMonitor().drawPixelAt(10, 10, "red");
-        // thePC.getMotherboard().loadProgram("Windows OS");
-        // thePC.getComputerCase().pressPowerButton();
+        thePC.getMonitor().drawPixelAt(10, 10, "red");
+        // if want to use drawPixelAt() method on Monitor class with u passed as
+        // parameter to thePC object then do like above
 
-        thePC.powerUp();
+        thePC.getMotherboard().loadProgram("Windows OS");
+
+        thePC.getComputerCase().pressPowerButton();
+
+        thePC.powerUp(); // if want encapulation
     }
 
     // output :
+    // Drawing pixel at 10,10 in color red
+    // Program Windows OS is now loading...
+    // Power button pressed
     // Power button pressed
     // Drawing pixel at 1200,50 in color yellow
 }
