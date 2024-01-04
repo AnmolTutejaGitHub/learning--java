@@ -44,3 +44,23 @@ public class OperatorOverloadingExample {
 In this example, the concatenate method is used for custom string concatenation. While it's not true operator overloading in the traditional sense, it demonstrates ad-hoc polymorphism through the use of a method that behaves like a binary operator (+).
 
 It's important to note that this form of polymorphism is limited in Java and is not as flexible as traditional operator overloading found in some other languages. The primary focus of polymorphism in Java is on method overloading and overriding to achieve flexibility and code reuse.
+
+
+
+In the context of programming and object-oriented languages, polymorphism refers to the ability of a single function, method, or operator to operate on different types of data or objects. The term "many forms" in polymorphism refers to the idea that a function or method can take on different forms depending on the type of object it is operating on.
+
+There are two main types of polymorphism: compile-time (or static) polymorphism and runtime (or dynamic) polymorphism.
+
+Compile-time (Static) Polymorphism:
+
+Also known as method overloading or function overloading.
+Different functions or methods with the same name but different parameter types or numbers of parameters are defined.
+The compiler determines which function to call based on the context at compile time.
+
+
+
+Runtime (Dynamic) Polymorphism:
+
+Also known as method overriding.
+It occurs when a derived class provides a specific implementation for a method that is already defined in its base class.
+The decision on which method to call is made at runtime.
