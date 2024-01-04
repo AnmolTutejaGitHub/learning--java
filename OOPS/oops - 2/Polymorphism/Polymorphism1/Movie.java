@@ -1,4 +1,4 @@
-package Polymorphism;
+package Polymorphism.Polymorphism1;
 
 public class Movie {
 
@@ -11,17 +11,14 @@ public class Movie {
     public void watchMovie() {
 
         String instanceType = this.getClass().getSimpleName();
+        // getClass() method and getSimpleName() available on java.lang.Object
+        // This code is used to obtain the simple
+        // name of the class of the current object. Let's break down the code:
+        // this: Refers to the current instance of the class.
+        // getClass(): Returns the runtime class of the current object.
+        // getSimpleName(): Returns the simple name of the class, without the package
+        // information.
         System.out.println(title + " is a " + instanceType + " film");
-    }
-
-    public static Movie getMovie(String type, String title) {
-
-        return switch (type.toUpperCase().charAt(0)) {
-            case 'A' -> new Adventure(title);
-            case 'C' -> new Comedy(title);
-            case 'S' -> new ScienceFiction(title);
-            default -> new Movie(title);
-        };
     }
 }
 
@@ -34,7 +31,7 @@ class Adventure extends Movie {
     @Override
     public void watchMovie() {
         super.watchMovie();
-        System.out.printf(".. %s%n".repeat(3),
+        System.out.printf(".. %s%n".repeat(3), // repeat repeats %s%n 3 times
                 "Pleasant Scene",
                 "Scary Music",
                 "Something Bad Happens");
