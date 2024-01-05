@@ -2,6 +2,14 @@ package Polymorphism.Polymorphism3;
 
 // casting with classes and using Object and var references 
 
+// In Java, when you have a reference variable of a base class type pointing to an object of a derived class, 
+//the compiler allows you to call methods that are declared in the base class. 
+//If the derived class has overridden those methods, the overridden version in the derived class will be executed at runtime. 
+//This is polymorphism in action.
+
+// However, when you call a method that is specific to the derived class and not declared in the base class, 
+//you need to cast the reference variable to the derived class type before making the call.
+
 public class NextMain {
 
     public static void main(String[] args) {
@@ -9,6 +17,13 @@ public class NextMain {
         Movie movie = Movie.getMovie("A", "Jaws");
         movie.watchMovie();
 
+        // In Java, when you have a reference variable of a base class type pointing to
+        // an object of a derived class, the compiler allows you to call methods that
+        // are declared in the base class. If the derived class has overridden those
+        // methods, the overridden version in the derived class will be executed at
+        // runtime. This is known as polymorphism in action.
+
+        ////////////////////////////////////////////////////////////////
         // Adventure jaws = Movie.getMovie("A", "Jaws");
         // jaws.watchMovie();
         // this code doesn't compile and gives as an
@@ -34,6 +49,11 @@ public class NextMain {
 
         /////////////////////////////
 
+        // Here, you are assigning the result of Movie.getMovie("C", "Airplane") to an
+        // Object reference. The watchMovie method cannot be directly called on comedy
+        // because the compiler only knows that it's an Object, and Object does not have
+        // a watchMovie method. If you want to call watchMovie, you would need to cast
+        // comedy back to a Movie or one of its subclasses.
         Object comedy = Movie.getMovie("C", "Airplane");
         // comedy.watchMovie(); will give an error
 
