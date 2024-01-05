@@ -87,10 +87,21 @@ public class NextMain {
         // It can't be assigned a null literal, again because a type can't be inferred
         // in that case.
 
+        // var --> like var in javascript //
+
         var airplane = Movie.getMovie("C", "Airplane");
         airplane.watchMovie();
+        // Since Movie class was declared as the return type , of the static method
+        // getMovie , then java can infer the type of this variable airplane , should be
+        // a Movie .
+        // method ke return type dekhkar infer kiya . getMovie method ka return type
+        // Movie hai .
+        // Why didn't compiler infer that it was a Comedy class ? because nothing about
+        // signature of the method , indicate that a comedy instance might be retured ,
+        // from the method.
 
         var plane = new Comedy("Airplane");
+        // compiler can easily infer the type Comedy
         plane.watchComedy();
     }
 }
