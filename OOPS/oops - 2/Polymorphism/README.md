@@ -15,8 +15,8 @@ In Java, you can define methods with special names that mimic operators, and the
 
 Here's an example:
 
-public class OperatorOverloadingExample {
-    private String value;
+    public class OperatorOverloadingExample {
+       private String value;
 
     public OperatorOverloadingExample(String value) {
         this.value = value;
@@ -38,8 +38,8 @@ public class OperatorOverloadingExample {
         OperatorOverloadingExample result = obj1.concatenate(obj2);
 
         System.out.println(result.getValue());  // Output: Hello, World!
+      }
     }
-}
 
 In this example, the concatenate method is used for custom string concatenation. While it's not true operator overloading in the traditional sense, it demonstrates ad-hoc polymorphism through the use of a method that behaves like a binary operator (+).
 
