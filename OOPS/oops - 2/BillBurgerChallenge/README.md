@@ -54,5 +54,3 @@ Create a deluxe burger meal, with a deluxe burger, that has a set price, so that
 The deluxe burger should have room for an additional two toppings.
 
 
-![Methods](OOPS/oops - 2/BillBurgerChallenge/Screenshot 2024-01-05 at 6.23.48 PM.png)
-
