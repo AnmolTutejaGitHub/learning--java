@@ -24,6 +24,14 @@ public class Main {
         Car ferrari = new GasPoweredCar("2022 Blue Ferrari 296 GTS",
                 15.4, 6);
         runRace(ferrari);
+
+        Car tesla = new ElectricCar("2022 Red Tesla Model 3",
+                568, 75);
+        runRace(tesla);
+
+        Car ferrariHybrid = new HybridCar("2022 Black Ferrari SF90 Stradale",
+                16, 8, 8);
+        runRace(ferrariHybrid);
     }
 
     public static void runRace(Car car) {
@@ -40,3 +48,10 @@ public class Main {
 // Gas -> All 6 cylinders are fired up, Ready!
 // Car -> driving, type is GasPoweredCar
 // Gas -> usage exceeds the average: 15.40
+// BEV -> switch 75 kWh battery on, Ready!
+// Car -> driving, type is ElectricCar
+// BEV -> usage under the average: 568.00
+// Hybrid -> 8 cylinders are fired up.
+// Hybrid -> switch 8 kWh battery on, Ready!
+// Car -> driving, type is HybridCar
+// Hybrid -> usage below average: 16.00
