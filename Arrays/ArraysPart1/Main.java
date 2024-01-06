@@ -4,15 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] myIntArray = new int[10];
+        int[] myIntArray = new int[10]; // 10 -> size of array
         myIntArray[0] = 45;
         myIntArray[1] = 1;
         myIntArray[5] = 50;
+        myIntArray[9] = 98; // last index for this array remember size is 10
         System.out.println(myIntArray[6]); // 0
 
         double[] myDoubleArray = new double[10];
         myDoubleArray[2] = 3.5;
         System.out.println(myDoubleArray[2]); // 3.5
+
+        int theArray[] = new int[] { 1, 3, 68, 46 };
 
         int[] firstTen = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         System.out.println("first = " + firstTen[0]); // first = 1
