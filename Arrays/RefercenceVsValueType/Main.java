@@ -18,7 +18,7 @@ public class Main {
         System.out.println("after change myIntArray = "
                 + Arrays.toString(myIntArray)); // after change myIntArray = [1, 2, 0, 0, 0]
         System.out.println("after change anotherArray = " +
-                Arrays.toString(anotherArray)); // after change myIntArray = [1, 2, 0, 0, 0]
+                Arrays.toString(anotherArray)); // after change anotherArray = [1, 2, 0, 0, 0]
     }
 
     private static void modifyArray(int[] array) {
