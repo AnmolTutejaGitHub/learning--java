@@ -1,5 +1,5 @@
 // Binary search algorithm for sorted array 
-package ClassArrays.BinarySearch;
+package ClassArrays.Searching.BinarySearch;
 
 public class BinarySearchAlgo {
 
