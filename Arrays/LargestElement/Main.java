@@ -15,3 +15,5 @@ public class Main {
         System.out.println(max); // 20
     }
 }
+
+// time complexity -- > O(n)
