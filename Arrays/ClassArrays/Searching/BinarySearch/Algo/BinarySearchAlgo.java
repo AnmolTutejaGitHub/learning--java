@@ -1,5 +1,5 @@
 // Binary search algorithm for sorted array 
-package ClassArrays.Searching.BinarySearch;
+package ClassArrays.Searching.BinarySearch.Algo;
 
 public class BinarySearchAlgo {
 
@@ -35,3 +35,6 @@ public class BinarySearchAlgo {
             System.out.println("Element " + targetElement + " not found in the array.");
     }
 }
+
+// note : In this search , intervals are continually split into two , hence the
+// word binary
