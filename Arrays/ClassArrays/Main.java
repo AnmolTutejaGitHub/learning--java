@@ -40,12 +40,16 @@ public class Main {
         // if no. (newLength) we passed in Arrays.copyOf is less than original array
         // length
         int[] smallerArray = Arrays.copyOf(thirdArray, 5);
+        thirdArray[0] = 5;
+        System.out.println(Arrays.toString(thirdArray)); // [5, 85, 4, 64, 51, 15, 1, 63, 65, 16]
         System.out.println(Arrays.toString(smallerArray)); // [67, 85, 4, 64, 51]
+        // change in copy of array (copy by copyOf method) does not reflect change in
+        // original and vice versa
 
         // if no.(newLength) we passed in Arrays.copyOf is greater than original array
         // length
         int[] largerArray = Arrays.copyOf(thirdArray, 15);
-        System.out.println(Arrays.toString(largerArray)); // [67, 85, 4, 64, 51, 15, 1, 63, 65, 16, 0, 0, 0, 0, 0]
+        System.out.println(Arrays.toString(largerArray)); // [5, 85, 4, 64, 51, 15, 1, 63, 65, 16, 0, 0, 0, 0, 0]
     }
 
     private static int[] getRandomArray(int len) {

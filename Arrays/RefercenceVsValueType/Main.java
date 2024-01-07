@@ -23,6 +23,11 @@ public class Main {
 
     private static void modifyArray(int[] array) {
 
+        // in functions , for objects (array is also an onject in java) copy of
+        // reference is passed
+
+        // for primities copy of value is passed in function ,,,, swap nahi hoga
+
         array[1] = 2;
     }
 }
