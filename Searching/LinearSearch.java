@@ -23,3 +23,5 @@ public class LinearSearch {
         }
     }
 }
+
+// time complexity of linear searh --> O(n)
