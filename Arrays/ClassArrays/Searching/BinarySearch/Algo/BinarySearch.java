@@ -9,6 +9,11 @@ public class BinarySearch {
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
+            // int mid =(right+left)/2;
+            // The alternative expression mid = (right + left) / 2 may not work correctly
+            // because it can lead to integer overflow in certain situations. For example,
+            // if right and left are both large positive integers, adding them together
+            // before dividing might exceed the maximum representable integer value.
 
             if (arr[mid] == target) {
                 result = mid;
