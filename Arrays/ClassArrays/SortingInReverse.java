@@ -28,6 +28,7 @@ public class SortingInReverse {
         return randomArray;
     }
 
+    // sorting in decreasing order
     private static int[] sortIntegers(int[] array) {
 
         System.out.println(Arrays.toString(array));
@@ -38,14 +39,16 @@ public class SortingInReverse {
             flag = false;
             for (int i = 0; i < sortedArray.length - 1; i++) {
                 if (sortedArray[i] < sortedArray[i + 1]) {
+
+                    // swapping
                     temp = sortedArray[i];
                     sortedArray[i] = sortedArray[i + 1];
                     sortedArray[i + 1] = temp;
                     flag = true;
-                    System.out.println("----->" + Arrays.toString(sortedArray));
+                    // System.out.println("----->" + Arrays.toString(sortedArray));
                 }
             }
-            System.out.println("-->" + Arrays.toString(sortedArray));
+            // System.out.println("-->" + Arrays.toString(sortedArray));
         }
 
         return sortedArray;
