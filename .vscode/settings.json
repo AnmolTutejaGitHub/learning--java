@@ -20,6 +20,8 @@
         "Earlier/pattern printing",
         "Arrays",
         "Searching",
-        "basics"
+        "basics",
+        "Lists",
+        "Leetcode/1624. Largest Substring Between Two Equal Characters"
     ]
 }
