@@ -16,10 +16,11 @@ public class Main {
         printText("Hello", "World", "again");
 
         System.out.println("_".repeat(20));
-        printText();
+        printText(); // can even call this with no arguments
 
+        // join method in java (array to string)
         String[] sArray = { "first", "second", "third", "fourth", "fifth" };
-        System.out.println(String.join(",", sArray));
+        System.out.println(String.join(",", sArray)); // first,second,third,fourth,fifth
     }
 
     private static void printText(String... textList) {
