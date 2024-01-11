@@ -12,6 +12,7 @@ public abstract class Animal {
         this.weight = weight;
     }
 
+    // we can't declared abstract methods as private
     public abstract void move(String speed);
 
     public abstract void makeNoise();
