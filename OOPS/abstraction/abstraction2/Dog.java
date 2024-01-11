@@ -6,6 +6,10 @@ public class Dog extends Animal {
         super(type, size, weight);
     }
 
+    // @Override
+    // public void move(String speed) {}
+    // // even though ou abstract method is forcing us to have move method we can
+    // still not put statement in our code
     @Override
     public void move(String speed) {
 
@@ -26,5 +30,10 @@ public class Dog extends Animal {
             System.out.print("Woof! ");
         }
 
+    }
+
+    // Dog can still have it's own method
+    public static void Bark() {
+        System.out.println("Barking");
     }
 }
