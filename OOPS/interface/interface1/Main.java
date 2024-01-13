@@ -83,7 +83,7 @@ public class Main {
         A obj; // no error (can create reference)
         // obj = new A(); // error can't instantiate an interface
 
-        obj = new B();
+        obj = new B(); // interface reference not class reference
         obj.show();
         obj.config();
 
