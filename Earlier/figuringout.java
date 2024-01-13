@@ -1,3 +1,5 @@
+package Earlier;
+
 public class figuringout {
     public static void main(String[] arg) {
         int a = 25;

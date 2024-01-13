@@ -1,3 +1,5 @@
+package Earlier.Strings;
+
 public class stringsMethod {
     public static void main(String[] arg) {
         // formatting a string

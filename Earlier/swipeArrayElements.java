@@ -1,3 +1,5 @@
+package Earlier;
+
 import java.util.Arrays;
 //Swap elements adjacent to each other in an array
 
@@ -15,22 +17,20 @@ public class swipeArrayElements {
     }
 }
 
-
 ///
 // public class ArrayPrintExample {
-//     public static void main(String[] args) {
-//         // Example array
-//         int[] arr = {1, 2, 3, 4, 5};
+// public static void main(String[] args) {
+// // Example array
+// int[] arr = {1, 2, 3, 4, 5};
 
-//         // Print the array without using Arrays.toString()
-//         System.out.print("[");
-//         for (int i = 0; i < arr.length; i++) {
-//             System.out.print(arr[i]);
-//             if (i < arr.length - 1) {
-//                 System.out.print(", ");
-//             }
-//         }
-//         System.out.println("]");
-//     }
+// // Print the array without using Arrays.toString()
+// System.out.print("[");
+// for (int i = 0; i < arr.length; i++) {
+// System.out.print(arr[i]);
+// if (i < arr.length - 1) {
+// System.out.print(", ");
 // }
-
+// }
+// System.out.println("]");
+// }
+// }

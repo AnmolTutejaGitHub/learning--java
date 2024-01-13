@@ -1,3 +1,5 @@
+package Earlier;
+
 class globalvariable {
     static int age;// My age is 0 years // if declared in class level it will have default value of
                    // zero

@@ -1,4 +1,4 @@
-//package interface.interface1;
+package interfaces.interface1;
 
 // instead of creating abstract class we can create an interface 
 

@@ -1,3 +1,4 @@
+package Earlier;
 
 //Taking input from user
 import java.util.Scanner;
@@ -53,12 +54,10 @@ public class inputFromUser {
         String language1 = scanner.nextLine();
         System.out.printf("My name is %s . My age is %d and I love %s!", names1, age1, language1);
 
-        //2. another way is type casting like:
-        //int age= Integer.parseInt(scanner.nextLine());
-        //double gpa=Double.parseDouble(scanner.nextLine());
+        // 2. another way is type casting like:
+        // int age= Integer.parseInt(scanner.nextLine());
+        // double gpa=Double.parseDouble(scanner.nextLine());
         scanner.close();
 
-
-        
     }
 }
