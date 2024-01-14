@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "interfaces.interfacePart2.Main",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "interfaces.interfacePart1.Main",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
             "name": "Main2",
             "request": "launch",
             "mainClass": "interfaces.interface1.Main2",

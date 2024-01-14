@@ -18,6 +18,13 @@ public class Main {
         tracked.track();
         flier.land();
     }
+
+    // output :
+    // Flaps wings
+    // Bird is taking off
+    // Bird is flying
+    // Bird's coordinates recorded
+    // Bird is landing
 }
 
 // You cannot directly instantiate an abstract class or an interface in Java.
