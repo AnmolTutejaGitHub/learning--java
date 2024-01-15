@@ -34,3 +34,5 @@ You need to define fields (instance variables) that should be inherited by subcl
 
 
 In many cases, a combination of both interfaces and abstract classes is used to achieve the desired design. The choice ultimately depends on the specific requirements of your application and the relationships between the classes in your design.
+
+# both abstract methods and interface can have  static methods
