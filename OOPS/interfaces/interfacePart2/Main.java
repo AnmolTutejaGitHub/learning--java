@@ -48,7 +48,7 @@ public class Main {
 
         flier.takeOff();
         flier.fly();
-        if (flier instanceof Trackable tracked) {
+        if (flier instanceof Trackable tracked) { // as filer given reference of bird
             System.out.println("--------");
             tracked.track();
         }
