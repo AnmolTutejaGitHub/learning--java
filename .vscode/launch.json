@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Generics.Basics.Main",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
+            "name": "GenericsExample",
+            "request": "launch",
+            "mainClass": "Generics.Basics.GenericsExample",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "interfaces.interfacePart2.Main",
             "projectName": "java 2.0_1a6841e8"
         },
