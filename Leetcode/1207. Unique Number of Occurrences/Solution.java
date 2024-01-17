@@ -1,5 +1,7 @@
 //package Leetcode.1207. Unique Number of Occurrences;
 
+import java.util.HashMap;
+
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
         HashMap<Integer, Integer> freq = new HashMap<>();
