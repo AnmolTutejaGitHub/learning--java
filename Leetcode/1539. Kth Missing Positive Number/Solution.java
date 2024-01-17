@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 class Solution {
     public int findKthPositive(int[] arr, int k) {
-        int ans = -1;
+        // int ans = -1;
         ArrayList<Integer> missing = new ArrayList<>();
         boolean flag = false;
         // for(int j=1;j<100 ; j++)
