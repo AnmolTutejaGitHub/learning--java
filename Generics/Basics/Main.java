@@ -41,5 +41,24 @@ public class Main {
         // BoundedGenericsPrinter<Integer> genericprinter5 = new
         // BoundedGenericsPrinter<>(23); //error as I bounded T to Animal
 
+        shout(1, "Anmol");
+        shout(3.6, 2);
+        shout(3.6, "b", 2);
+
     }
+
+    // can have generic method
+    private static <T, G> void shout(T a, G b) { // T, G ---> types of generic parameters u want
+        System.out.println(a);
+        System.out.println(b);
+    }
+
+    // if u want to return a generic use T as return type instead of void
+    private static <T, G, K> T shout(T a, G b, K c) {
+        System.out.println(a);
+        System.out.println(b);
+
+        return a;
+    }
+
 }
