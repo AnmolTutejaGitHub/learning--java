@@ -22,7 +22,7 @@ class Solution {
             if (rem == 0)
                 return false;
             // if(n%rem==0) flag = true ;
-            if (n != 0 && rem != 0 && n % rem != 0 && n != 0 && rem != 0)
+            if (n % rem != 0)
                 return false;
 
             cpyn = cpyn / 10;
