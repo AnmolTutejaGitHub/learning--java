@@ -30,6 +30,28 @@ public class Basic {
             // Failed
             // Pending
             // Success
+        }
+
+        // using if else and switch
+        // as Running etc are constants we can compare them
+        if (s == Status.Running)
+            System.out.println("All Set");
+        else if (s == Status.Pending)
+            System.out.println("All not Set");
+
+        // using switch
+
+        switch (s) {
+            case Running: /// no need to do Status.Running as java will know from the type of s
+                System.out.println("All Set");
+                break;
+
+            case Failed:
+                System.out.println("All not  Set");
+                break;
+
+            default:
+                System.out.println("default");
 
         }
     }
