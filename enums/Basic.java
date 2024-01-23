@@ -54,6 +54,8 @@ public class Basic {
                 System.out.println("default");
 
         }
+
+        System.out.println(s.getClass().getSuperclass()); // class java.lang.Enum
     }
 
 }
