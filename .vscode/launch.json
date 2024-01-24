@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "binary_XOR",
+            "request": "launch",
+            "mainClass": "bit_manipulation.binary_XOR",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
             "name": "binary_OR",
             "request": "launch",
             "mainClass": "bit_manipulation.binary_OR",
