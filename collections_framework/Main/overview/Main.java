@@ -1,4 +1,4 @@
-package collections_framework.Main.Collection1;
+package collections_framework.Main.overview;
 
 public class Main {
 
