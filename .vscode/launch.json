@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "git_ith_bit",
+            "request": "launch",
+            "mainClass": "bit_manipulation.git_ith_bit",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
             "name": "odd_or_even",
             "request": "launch",
             "mainClass": "bit_manipulation.odd_or_even",
