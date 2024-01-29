@@ -1,6 +1,8 @@
+package Methods;
+
 // method example in java 
 
-public class MethodExample{
+public class MethodExample {
 
     public static void main(String[] args) {
 

@@ -18,6 +18,7 @@ public class nth_fibonacci_Number {
             b = b + a;
             a = temp;
             count++;
+            // System.out.println(b); // for printing series
 
         }
         System.out.println(b);

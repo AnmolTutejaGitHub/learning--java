@@ -1,3 +1,5 @@
+package Methods;
+
 public class MethodSignatures {
 
     // A method is uniquely defined in a class by its name, and the number and type

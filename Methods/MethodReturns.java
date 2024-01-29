@@ -1,3 +1,5 @@
+package Methods;
+
 // method with return type example in java 
 public class MethodReturns {
 

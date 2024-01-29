@@ -1,3 +1,5 @@
+package Methods;
+
 public class SwapMethod {
 
     public static void swap(int a, int b) {
