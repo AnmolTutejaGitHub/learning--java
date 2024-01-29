@@ -7,7 +7,7 @@ public class clear_range_of_bits {
 
     }
 
-    public static int clearIBits(int n, int i, int j) {
+    public static int clearBitsInRange(int n, int i, int j) {
         int a = ((~0) << (j + 1));
         int b = (1 << i) - 1;
 
