@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Shadowing",
+            "request": "launch",
+            "mainClass": "Methods.Shadowing",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
             "name": "nth_fibonacci_Number",
             "request": "launch",
             "mainClass": "fibonacci.nth_fibonacci_Number",
