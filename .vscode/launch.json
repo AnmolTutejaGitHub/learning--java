@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "power_of_two",
+            "request": "launch",
+            "mainClass": "bit_manipulation.power_of_two",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
             "name": "clear_ith_bit",
             "request": "launch",
             "mainClass": "bit_manipulation.clear_ith_bit",
