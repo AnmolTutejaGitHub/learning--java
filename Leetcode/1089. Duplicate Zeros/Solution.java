@@ -1,5 +1,7 @@
 //package Leetcode.1089. Duplicate Zeros;
 
+import java.util.ArrayList;
+
 class Solution {
     public void duplicateZeros(int[] arr) {
         ArrayList<Integer> ans = new ArrayList<>();
