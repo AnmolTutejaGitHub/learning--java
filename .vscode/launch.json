@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "first_occurence",
+            "request": "launch",
+            "mainClass": "Recursion.first_occurence",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
             "name": "print_numbers_n_to_1_recursion",
             "request": "launch",
             "mainClass": "Recursion.print_numbers_n_to_1_recursion",
