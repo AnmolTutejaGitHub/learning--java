@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "power",
+            "request": "launch",
+            "mainClass": "Recursion.power",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
             "name": "last_occurence",
             "request": "launch",
             "mainClass": "Recursion.last_occurence",
