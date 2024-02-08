@@ -1,5 +1,8 @@
 //package Leetcode.229. Majority Element II;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         int check = nums.length / 3;
