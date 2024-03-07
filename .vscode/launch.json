@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "checking_copilot",
+            "request": "launch",
+            "mainClass": "checking_copilot",
+            "projectName": "java 2.0_1a6841e8"
+        },
+        {
+            "type": "java",
             "name": "binary_string_problem",
             "request": "launch",
             "mainClass": "Recursion.binary_string_problem",
