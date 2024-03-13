@@ -1,5 +1,6 @@
 //package Leetcode.1171. Remove Zero Sum Consecutive Nodes from Linked List;
 
+//  bruteforce , tried to came up with optimised soln for 4hrs but failed
 import java.util.ArrayList;
 import java.util.Arrays;
 
