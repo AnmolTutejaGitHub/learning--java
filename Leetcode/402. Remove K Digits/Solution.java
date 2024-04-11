@@ -4,6 +4,12 @@ import java.util.Stack;
 
 class Solution {
     public String removeKdigits(String num, int k) {
+
+        if (k == 0)
+            return num;
+        if (k == num.length())
+            return "0";
+
         Stack<Character> st = new Stack<>();
 
         for (char n : num.toCharArray()) {
