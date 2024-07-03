@@ -1,5 +1,7 @@
 //package Leetcode.1509. Minimum Difference Between Largest and Smallest Value in Three Moves;
 
+import java.util.Arrays;
+
 class Solution {
     public int minDifference(int[] nums) {
         Arrays.sort(nums);
