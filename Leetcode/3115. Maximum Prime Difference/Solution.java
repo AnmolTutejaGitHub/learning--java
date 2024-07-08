@@ -1,17 +1,19 @@
-//package Leetcode.3115. Maximum Prime Difference;
 class Solution {
     public int maximumPrimeDifference(int[] nums) {
         int first = -1;
         int last = -1;
-        boolean pass = false;
 
         for (int i = 0; i < nums.length; i++) {
             if (isPrime(nums[i])) {
-                if (!pass) {
-                    first = i;
-                    pass = true;
-                }
+                first = i;
+                break;
+            }
+        }
+
+        for (int i = nums.length - 1; i >= 0; i--) {
+            if (isPrime(nums[i])) {
                 last = i;
+                break;
             }
         }
         return last - first;
