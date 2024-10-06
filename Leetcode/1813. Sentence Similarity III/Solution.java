@@ -15,9 +15,6 @@ class Solution {
         int e1 = longest.length - 1;
         int e2 = smallest.length - 1;
 
-        if (smallest.length == 1 && longest.length != 1)
-            return (smallest[0].equals(longest[0]) || smallest[0].equals(longest[e1]));
-
         while (s < smallest.length && smallest[s].equals(longest[s]))
             s++;
 
